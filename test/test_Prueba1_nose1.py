@@ -1,35 +1,35 @@
 
-# https://docs.python.org/3/library/unittest.html
+# # https://docs.python.org/3/library/unittest.html
 
-import unittest
-from codigo.Prueba1 import *
-from nose2.tools import params
+# import unittest
+# from codigo.Prueba1 import *
+# from nose2.tools import params
 
-# Los archivos de test deben empezar por la palabra test
+# # Los archivos de test deben empezar por la palabra test
 
-# Se ejecuta nose2 y busca test
+# # Se ejecuta nose2 y busca test
 
-class TestStrings(unittest.TestCase):
+# class TestStrings(unittest.TestCase):
 
-    def test_suma(self):
-        self.assertEqual(suma(1,1), 2)
+#     def test_suma(self):
+#         self.assertEqual(suma(1,1), 2)
 
-    def test_resta(self):
-        self.assertEqual(resta(1,1), 0)
+#     def test_resta(self):
+#         self.assertEqual(resta(1,1), 0)
 
-    def test_multiplicacion(self):
-        self.assertEqual(multiplicacion(2,3), 6)
+#     def test_multiplicacion(self):
+#         self.assertEqual(multiplicacion(2,3), 6)
 
-    def test_division(self):
-        self.assertEqual(division(10,2), 5)
+#     def test_division(self):
+#         self.assertEqual(division(10,2), 5)
 
-    def test_modulo(self):
-        self.assertEqual(modulo(10,2), 0)
+#     def test_modulo(self):
+#         self.assertEqual(modulo(10,2), 0)
 
 
-@params("Sir Bedevere", "Miss Islington", "Duck")
-def test_is_knight(value):
-    assert value.startswith('Sir')
+# @params("Sir Bedevere", "Miss Islington", "Duck")
+# def test_is_knight(value):
+#     assert value.startswith('Sir')
 
 # assertEqual(a, b)   a == b
 # assertNotEqual(a, b)  a != b
