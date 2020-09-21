@@ -1,4 +1,4 @@
-from codigo.Prueba1 import readoperation,switch
+from Prueba1 import readoperation,switch
 
 while True:
     print('''
